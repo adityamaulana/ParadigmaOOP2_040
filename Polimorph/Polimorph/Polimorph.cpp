@@ -20,3 +20,12 @@ class Vincent : public Someone
 			cout << "Message from Vincent" << endl;
 		}
 };
+
+class Enzy : public Someone
+{
+	public:
+		void Message()
+		{
+			cout << "Message from Vincent" << endl;
+		}
+};
