@@ -35,3 +35,18 @@ class Student : virtual public People
 		}
 };
 
+class Coki : public Worker, public Student
+{
+public:
+
+	Coki(int pAge) :
+		Worker(pAge),
+		Student(pAge),
+		People(pAge)
+
+		{
+			cout << " Coki maked\n" << endl;
+		}
+
+};
+
