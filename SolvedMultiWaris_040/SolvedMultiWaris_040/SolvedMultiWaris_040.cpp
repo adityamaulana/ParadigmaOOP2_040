@@ -50,3 +50,9 @@ public:
 
 };
 
+int main()
+{
+	Coki a(12);
+
+	return 0;
+}
