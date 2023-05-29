@@ -20,7 +20,7 @@ class Worker : virtual public People
 		Worker(int pAge) :
 			People(pAge)
 		{
-			cout << "Worker Maked\n" << endl;
+			cout << "Worker maked\n" << endl;
 		}
 };
 
@@ -31,6 +31,7 @@ class Student : virtual public People
 		Student(int pAge) :
 			People(pAge)
 		{
-			cout << "Student Maked\n" << endl;
+			cout << "Student maked\n" << endl;
 		}
 };
+
