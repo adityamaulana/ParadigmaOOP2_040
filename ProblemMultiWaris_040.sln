@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProblemMultiWaris_040", "Pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SolvedMultiWaris_040", "SolvedMultiWaris_040\SolvedMultiWaris_040\SolvedMultiWaris_040.vcxproj", "{DE0A5FFD-6C25-4BFE-88D6-40A0B069EEBC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polimorph", "Polimorph\Polimorph\Polimorph.vcxproj", "{C4760C11-B908-42A2-9D32-98B90B58BEFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{DE0A5FFD-6C25-4BFE-88D6-40A0B069EEBC}.Release|x64.Build.0 = Release|x64
 		{DE0A5FFD-6C25-4BFE-88D6-40A0B069EEBC}.Release|x86.ActiveCfg = Release|Win32
 		{DE0A5FFD-6C25-4BFE-88D6-40A0B069EEBC}.Release|x86.Build.0 = Release|Win32
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Debug|x64.ActiveCfg = Debug|x64
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Debug|x64.Build.0 = Debug|x64
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Debug|x86.Build.0 = Debug|Win32
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Release|x64.ActiveCfg = Release|x64
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Release|x64.Build.0 = Release|x64
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Release|x86.ActiveCfg = Release|Win32
+		{C4760C11-B908-42A2-9D32-98B90B58BEFA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
