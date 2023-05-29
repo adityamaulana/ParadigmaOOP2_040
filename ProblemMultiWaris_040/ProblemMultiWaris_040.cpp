@@ -33,3 +33,15 @@ class Student : public People
 			cout << "Student Maked\n" << endl;
 		}
 };
+
+class Coki : public Worker, public Student
+{
+	public:
+
+		Coki(int pAge) :
+			Worker(pAge),
+			Student(pAge)
+		{
+			cout << "Coki Maked\n" << endl;
+		}
+};
