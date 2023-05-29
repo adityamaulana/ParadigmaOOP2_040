@@ -22,3 +22,14 @@ public:
 		cout << "Worker Maked\n" << endl;
 	}
 };
+
+class Student : public People
+{
+	public:
+
+		Student(int pAge) :
+			People(pAge)
+		{
+			cout << "Student Maked\n" << endl;
+		}
+};
