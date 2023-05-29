@@ -29,3 +29,18 @@ class Enzy : public Someone
 			cout << "Message from Vincent" << endl;
 		}
 };
+
+int main()
+{
+	Someone *object;
+	Vincent a;
+	Enzy b;
+
+	object = &a;
+	object -> Message();
+	
+	object = &b;
+	object -> Message();
+
+	return 0;
+}
