@@ -16,5 +16,9 @@ public:
 class Worker : public People
 {
 public:
-	
+	Worker(int pAge) :
+		People(pAge)
+	{
+		cout << "Worker Maked\n" << endl;
+	}
 };
