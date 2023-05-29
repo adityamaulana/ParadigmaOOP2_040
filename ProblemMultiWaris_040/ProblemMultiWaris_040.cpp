@@ -45,3 +45,10 @@ class Coki : public Worker, public Student
 			cout << "Coki Maked\n" << endl;
 		}
 };
+
+int main()
+{
+	Coki a(12);
+
+	return 0;
+}
