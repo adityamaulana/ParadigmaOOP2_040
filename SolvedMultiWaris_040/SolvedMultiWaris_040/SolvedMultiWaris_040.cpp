@@ -23,3 +23,14 @@ class Worker : virtual public People
 			cout << "Worker Maked\n" << endl;
 		}
 };
+
+class Student : virtual public People
+{
+	public:
+
+		Student(int pAge) :
+			People(pAge)
+		{
+			cout << "Student Maked\n" << endl;
+		}
+};
